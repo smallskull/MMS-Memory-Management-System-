@@ -48,41 +48,6 @@ Each deallocation request:
 
 ---
 
-## Project Structure
-
-memory-simulator/
-├── src/
-│   ├── allocator/
-│   │   ├── base_allocator.py
-│   │   ├── first_fit.py
-│   │   ├── best_fit.py
-│   │   └── worst_fit.py
-│   │
-│   ├── buddy/
-│   │   └── buddy_allocator.py
-│   │
-│   ├── cache/
-│   │   ├── cache_base.py
-│   │   ├── fifo_cache.py
-│   │   └── lru_cache.py
-│   │
-│   ├── virtual_memory/
-│   │   ├── page_table.py
-│   │   └── paging_system.py
-│   │
-│   ├── memory.py
-│   ├── stats.py
-│   ├── ui.py
-│   └── main.py
-│
-├── tests/
-├── docs/
-├── README.md
-└── requirements.txt
-
-
----
-
 ## How to Run
 
 ### Prerequisites
